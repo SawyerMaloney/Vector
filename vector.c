@@ -16,5 +16,7 @@ vector make_vec() {
 
 int main() {
     printf("Hello, World\n");
+    vector vec = make_vec();
+    printf("size of vec: %d\n", vec.size);
     return 1;
 }
